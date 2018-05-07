@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="Photos/DC.png" type="image/x-icon">
+</head>
+<body>
+    <form>
+        <center>
+            <header>Tic-Tac-Toe</header>
+        </center>
+        <br>
+        <div class="table">
+            <center>
+                <input type="text" size="1" id="a0">
+                <input type="button" id="b0" > 
+                <input type="text" size="1" id="a1" > 
+                <input type="button" name="b1" > 
+                <input type="text" size="1" id="a2" > 
+                <input type="button" name="b2" > 
+                <br>
+                <input type="text" size="1" id="a3" > 
+                <input type="button" name="b3" > 
+                <input type="text" size="1" id="a4" > 
+                <input type="button" name="b4" > 
+                <input type="text" size="1" id="a5" > 
+                <input type="button" name="b5" >
+                <br>
+                <input type="text" size="1" id="a6" >
+                <input type="button" name="b6" > 
+                <input type="text" size="1" id="a7" > 
+                <input type="button" name="b7" > 
+                <input type="text" size="1" id="a8" >
+                <input type="button" name="b8" >
+                <br>
+                <br>
+                <font size="3" class="Msg">Mensagem:</font>
+                <input type="text" size="20" id="output">
+                <br>
+                <br>
+                Nivel de Dificuldade:
+                <select name="difficulty" size="1" onchange="diff=form.difficulty[form.difficulty.selectedIndex].value;">
+                    <option value="1"> Muito Facíl </option>
+                    <option value="2"> Facíl </option>
+                    <option selected value="3"> Médio </option>
+                    <option value="4"> Difícil </option>
+                </select>
+            </center>
+        </div>
+        <br>
+        <div class="config">
+            <center>
+                <font size="3" class="config0"></font>
+                <input type="button" value="Computador Movendo Primeiro" id="Pc1">
+            </center>            
+        </div>
+        <br>
+        <div>
+            <center>
+                <input type="reset" value="Reiniciar" id="clear"> 
+            </center>
+        </div>
+    </form>
+    <footer>DBO &copy; IFRS <br> By: <strong>Gabriel Soares</strong> </footer>
+
+   <script src="js/main.js" type="module"></script> 
+   <script src="js/main0.js" type="module"></script>
+   <script src="js/main1.js" type="module" ></script>
+</body>
+</html>
